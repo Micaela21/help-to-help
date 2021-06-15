@@ -1,0 +1,11 @@
+.tabPanelTable {
+  width: 85% !important;
+}
+
+.newCardsCnt {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  /* position: relative !important; */
+  /* width: 70% !important; */
+}

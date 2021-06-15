@@ -1,0 +1,28 @@
+.editCategory {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.editCategory > h4 {
+    margin: 2px;
+}
+
+.editCategory > Button {
+    margin: 2px;
+}
+
+.allCat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+    max-height: 70vh;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 50px 20px 50px;
+
+}
+
+.allCat H4 {
+    padding: 5px;
+}

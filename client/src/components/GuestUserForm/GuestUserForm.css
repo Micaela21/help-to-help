@@ -1,0 +1,9 @@
+.containerF{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+.obj{
+    margin: 10px;
+}

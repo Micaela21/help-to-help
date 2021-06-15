@@ -1,0 +1,24 @@
+.orderCard {
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 0px;
+  /* width:fit-content; */
+  /* min-width: 40%; */
+  width: fit-content;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.headerCard {
+  display: flex;
+  padding-top: 0px;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 0;
+  overflow-wrap: anywhere;
+}

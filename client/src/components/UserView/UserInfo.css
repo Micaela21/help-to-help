@@ -1,0 +1,35 @@
+.userForm {
+  width: 90% !important;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.MuiOutlinedInput-root {
+  margin: 10px !important;
+}
+
+.bigs {
+  width: 450px !important;
+}
+
+.formPass {
+  width: 300px;
+}
+
+.bla {
+  width: 300px;
+}
+.buttonsUser {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonUser {
+  margin: 5px !important;
+}
+
+.MuiFormControl-root {
+  margin: 10px !important;
+}

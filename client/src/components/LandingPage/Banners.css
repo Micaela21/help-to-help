@@ -1,0 +1,154 @@
+.banner1 img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 790px;
+    height: 456px;
+}
+
+.title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: -300px;
+    margin-left: 60px;
+}
+
+.subTitle {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -40px;
+    margin-left: 60px;
+    font-size: 17px;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 20px 0px 20px;
+    width: 220px;
+    height: 50px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+button img {
+    max-height: 20px;
+    max-width: 40px;
+    margin-left: 6px;
+
+}
+
+.banner2 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.banner2 img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 450px;
+    height: 456px;
+    transition: 0.2s;
+}
+
+.banners {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.leftArrow {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.leftArrow:active {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.rightArrow {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    right: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rightArrow:active {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.bannerInfoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 10px -15px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.bannerInfoContainer img {
+    height: 80px;
+    margin: 0px 50px 0px 50px ;
+}
+
+.info {
+    width: 300px;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.info h4 {
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+.info p {
+    margin: 0px;
+    width: 250px;
+}
+
+.width {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1280px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+    margin-left: -40px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 0px 0px 30px;
+}

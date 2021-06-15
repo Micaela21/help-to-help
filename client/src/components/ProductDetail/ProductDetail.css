@@ -1,0 +1,134 @@
+
+.backg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.hundreed {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ctner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0,10%);
+    padding: 20px;
+}
+
+.ctner3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 5px;
+    width: 1300px;
+    
+}
+
+.detailImg img {
+    padding: 5px 0px 5px 0px;
+    height: 700px;
+    width: 650px;
+    object-fit: contain;
+    margin-right: 100px;
+}
+
+.vertical {
+    width: 1px;
+    height: 650px;
+    margin: 0px 40px 0px -70px;
+    opacity: 20%;
+}
+
+.horizontal {
+    height: 1px;
+    opacity: 20%;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.detailDesc {
+    width: 480px;
+}
+
+.detailDesc div{
+    padding-top: 10px;
+    font-size: 35px;
+    
+}
+
+.detailDesc div h1 {
+    font-size: 35px;
+    margin: 50px 0px 0px 0px;
+}
+
+.desc {
+    margin-top: 30px;
+    
+}
+
+.desc div {
+    font-size: 20px;
+}
+
+.desc h5 {
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+.marginTop {
+    margin-top: 30px;
+}
+
+.detailBuy {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+.detailBuy input {
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.detailBuy span {
+    display: flex;
+    font-size: 20px;
+    align-self: center;
+    justify-self: flex-start;
+    opacity: 30%;
+}
+
+.detailBuy button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 196, 71);
+    color: white;
+    font-size: 27px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+
+.reviews {
+    position: relative;
+    top: 20px;
+    margin-left: 30%
+}

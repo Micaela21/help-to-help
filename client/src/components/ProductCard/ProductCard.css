@@ -1,0 +1,101 @@
+.productCard {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 10%);
+    transition: 0.3s;
+}
+
+.productCard:hover {
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 10%);
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.productImg {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.productImg img {
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.cardDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.cardDescription h5 {
+    font-size: 23px;
+    margin: 10px 0px 20px 0px;
+}
+
+.cardDescription h6 {
+    font-size: 23px;
+    margin: -15px 0px 0px 0px;
+}
+
+.buyButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 15.2px;
+    background-color: #ff6d6d;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.buyButton:hover {
+    transform: scale(1.02);
+}
+
+.noDisponible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 15.2px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.buyButton img {
+    height: 30px;
+    padding-right: 10px;
+}
+
+.buttons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.productName {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

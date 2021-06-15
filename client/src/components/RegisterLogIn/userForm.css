@@ -1,0 +1,9 @@
+.full{
+    margin: 10px;
+    width: 450px;
+}
+
+.danger{
+    font-size: small;
+    color: #ad0101;
+}

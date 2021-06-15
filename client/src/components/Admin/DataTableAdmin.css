@@ -1,0 +1,16 @@
+.dataTable {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 90%;
+}
+
+.orderInfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* min-width: 200px; */
+  /* max-width: 70%; */
+}

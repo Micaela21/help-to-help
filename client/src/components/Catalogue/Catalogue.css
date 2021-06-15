@@ -1,0 +1,81 @@
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100%;
+}
+
+.dale {
+    display: flex;
+    align-items: flex-start;
+    width: 1400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barraCategories {
+    display: flex;
+    width: 300px;
+    min-width: 300px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    
+}
+
+.barraCategories ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px 0px 50px 0px ;
+}
+
+.barraCategories li {
+    padding: 7px;
+}
+
+.tuvieja {
+
+    margin-left: 50px;
+    
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    display: flex;
+    width:  950px;
+    margin-left: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.sort {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sort h5 {
+    font-size: 22px;
+}
+
+.sort select {
+    padding: 7px;
+    font-size: 15px;
+    margin: 30px 0px 30px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.productsContainer {
+    display: flex;
+    position: relative;
+    width: 950;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 85vh;
+}

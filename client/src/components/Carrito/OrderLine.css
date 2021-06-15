@@ -1,0 +1,48 @@
+.carroProduct {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 15%);
+  margin: 0px 50px 30px 0px;
+  width: 800px;
+}
+
+.carroProduct h2 {
+    margin: 5px 0px 10px 0px;
+    font-size: 25px;
+}
+
+.carroProduct img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.productDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px 5px 30px;
+}
+
+.titular {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+input[type=number] {
+    border: solid 1px rgb(0, 0, 0, 20%) ;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+
+.productDetail p {
+    margin: 0px 0px 5px 0px;
+}
+
+.productDetail input {
+    margin: 10px 30px 0px 0px;
+}

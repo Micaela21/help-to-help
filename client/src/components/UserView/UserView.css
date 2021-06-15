@@ -1,0 +1,19 @@
+.appBar {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+.appBar > span {
+  color: black !important;
+}
+
+.PrivateTabIndicator-colorSecondary-3 {
+  background-color: black !important;
+}
+
+.newCardsCnt {
+  display: flex !important;
+  flex-direction: row !important;
+  /* position: relative !important; */
+  flex-wrap: wrap !important;
+}

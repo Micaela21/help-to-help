@@ -1,0 +1,34 @@
+.MuiStepper-root {
+  /* display: flex; */
+  padding: 15px !important;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: grey !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: rgb(110, 185, 110) !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: grey!important;
+}
+
+/* .stattusStepper{
+  padding: 5px !important;
+} */
+
+.statusButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+} 
+
+.statusButtons > Button {
+  width: 200px !important;
+  margin: 0px;
+  margin-bottom: 5px;
+}

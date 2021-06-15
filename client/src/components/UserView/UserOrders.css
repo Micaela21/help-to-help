@@ -1,0 +1,25 @@
+.accordionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orderAccordion {
+  width: 80% !important;
+}
+
+.MuiAccordionSummary-content {
+  margin: 0px !important;
+}
+
+.MuiPaper-root > h4 {
+  margin: 20px !important;
+}
+
+.userOrderTitle {
+  margin: 0px !important;
+}
+
+.userOrderLink {
+  color: rgb(77, 131, 247) !important;
+}
